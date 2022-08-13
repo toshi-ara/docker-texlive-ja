@@ -3,6 +3,10 @@ Minimal TeX Live image for Japanese based on debian
 ([paperist/texlive-ja:debian (AMD64)](https://hub.docker.com/r/paperist/texlive-ja))
  plus several CTAN packages
 
+Please refer to
+[DockerHub](https://hub.docker.com/repository/docker/toshiara/texlive-ja) page
+
+
 ## Build
 ```bash
 $ git clone https://github.com/toshi-ara/docker-texlive-ja.git
