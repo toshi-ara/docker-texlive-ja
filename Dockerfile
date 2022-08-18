@@ -3,4 +3,5 @@ LABEL lastupdate=2022.8.10
 
 RUN apt-get update && \
     apt-get install -y libfontconfig1 && \
-    tlmgr install light-latex-make
+    tlmgr install light-latex-make \
+        lualatex-math

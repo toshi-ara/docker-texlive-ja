@@ -1,4 +1,4 @@
-FROM toshiara/texlive-ja:2022.8.13
+FROM toshiara/texlive-ja:2022.8.19
 
 RUN tlmgr update --self --all && \
     tlmgr install \
@@ -8,5 +8,6 @@ RUN tlmgr update --self --all && \
         siunitx stix yhmath \
         libertine libertinus-fonts libertinus-type1 \
         libertinust1math \
-        stix2-otf stix2-type1 asana-math xits
+        stix2-otf stix2-type1 asana-math xits \
+        selnolig
 
