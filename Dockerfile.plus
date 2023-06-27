@@ -1,4 +1,4 @@
-FROM toshiara/texlive-ja:2023.7.27
+FROM toshiara/texlive-ja:2023.6.28
 
 RUN tlmgr update --self --all && \
     tlmgr install \

@@ -1,6 +1,6 @@
 USERID=toshiara
 NAME=texlive-ja
-DATE=2023.7.27
+DATE=2023.6.28
 
 # build
 docker build -f Dockerfile.plus \
