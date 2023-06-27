@@ -8,5 +8,6 @@ RUN tlmgr update --self --all && \
         siunitx stix yhmath \
         libertine libertinus-fonts libertinus-type1 \
         libertinust1math \
-        stix2-otf stix2-type1 asana-math xits
+        stix2-otf stix2-type1 asana-math xits \
+        selnolig
 
